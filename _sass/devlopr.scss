@@ -443,6 +443,68 @@ header {
     width: 0;
 }
 
+/* portfolio */
+.cbp-l-grid-work .cbp-item-wrapper {
+    background-color: var(--card-background-color) !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    padding: 7px 7px 27px;
+    border-top: 1px solid var(--card-background-color) !important;
+}
+
+.cbp-l-filters-work .cbp-filter-item {
+    background-color: var(--card-background-color) !important;
+    color: #888;
+    cursor: pointer;
+    font: 600 11px/37px "Open Sans", sans-serif;
+    margin: 0 3px 15px 3px;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
+    background-color: #000 !important;
+    color: #fff;
+    cursor: default;
+}
+
+.cbp-popup-singlePage .cbp-popup-navigation-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9990;
+    height: 104px;
+    background-color: #111213 !important;
+}
+
+.cbp-l-project-details-visit {
+    color: #FFFFFF !important;
+    float: right;
+    clear: both;
+    text-decoration: none;
+    font: 400 11px/18px "Open Sans", sans-serif;
+    margin-top: 25px;
+    background-color: #000000 !important;
+    padding: 8px 19px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+@media (min-width: 768px) {
+    .offset-md-1 {
+    margin-left: 3.333333% !important;
+    }
+    // #topNav{
+    //     padding-left: 100px;
+    //     padding-right: 100px;
+    //     background-color: var(--nav-color) !important;
+    // }
+}
 
 /* Homepage project cards*/
 

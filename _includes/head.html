@@ -1,15 +1,21 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {% if {page.title %}{{ page.title }} -{{site.title}}{% else %}{{ site.title }} - {{
-    site.subtitle }}{% endif %}
+    {% if {page.title %}{{ page.title }} -{{site.title}}{% else %}{{ site.title
+    }} - {{ site.subtitle }}{% endif %}
   </title>
   <meta http-equip="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.summary %}
-    <meta name="description" content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+  <meta
+    name="description"
+    content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}"
+  />
   {% endif %}
-   <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
+  <meta
+    name="keywords"
+    content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"
+  />
 
   <link
     rel="alternate"
@@ -57,23 +63,21 @@
   <meta name="twitter:title" content="{{ page.title }}" />
   {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
-  {% endif %}
-
-  {% if page.url %}
+  {% endif %} {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
   {% endif %} {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}" />
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}" />
   {% endif %} {% if page.header-img %}
-  <meta
-    name="twitter:image:src"
-    content="{{ site.url }}{{ page.thumbnail }}"
-  />
+  <meta name="twitter:image:src" content="{{ site.url }}{{ page.thumbnail }}" />
   {% endif %}
 
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
-  <!-- <link rel="stylesheet" href="/assets/css/custom-style.css" /> -->
+  <link
+    rel="stylesheet"
+    href="{{site.url}}{{site.baseurl}}/assets/css/main.css"
+  />
+  <link rel="stylesheet" type="text/css" href="/assets/css/external.css" />
   <link
     rel="stylesheet"
     href="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/css/lightgallery.min.css"
@@ -132,6 +136,7 @@
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/nanobar/nanobar.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/typewrite/dist/typewrite.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -143,8 +148,8 @@
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"
   ></script>
- <!-- (you can remove the below scripts but do buy me a coffee to show some support :) -->
-<!-- Maker widget  -->
+  <!-- (you can remove the below scripts by buying me a coffee  :) -->
+  <!-- Maker widget  -->
   <script>
     (function(d, h, m) {
       var js,
@@ -156,15 +161,14 @@
       js.id = m;
       js.onload = function() {
         window.makerWidgetComInit({
-          position: "left",
-          widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi"
+          position: 'left',
+          widget: 'ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi'
         });
       };
-      js.src = "https://makerwidget.com/js/embed.js";
+      js.src = 'https://makerwidget.com/js/embed.js';
       fjs.parentNode.insertBefore(js, fjs);
-    })(document, "script", "dhm");
+    })(document, 'script', 'dhm');
   </script>
-  <!-- buy me a coffeee -->
   <script
     data-name="BMC-Widget"
     src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"

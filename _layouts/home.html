@@ -4,54 +4,349 @@ layout: default
 
 <script>
   $(document).ready(function() {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
+    $('#typewriteText').typewrite({
+      actions: [{ type: '{{site.typewrite-text}}' }]
+    });
+
+    /* Portfolio */
+    $('#grid-container').cubeportfolio({
+      filters: '#filters-container',
+      loadMore: '#filters-loadMore-work',
+      loadMoreAction: 'click',
+      layoutMode: 'grid',
+      defaultFilter: '*',
+      animationType: 'scaleSides',
+      gapHorizontal: 30,
+      gapVertical: 30,
+      gridAdjustment: 'responsive',
+      mediaQueries: [
+        {
+          width: 1500,
+          cols: 4
+        },
+        {
+          width: 1100,
+          cols: 3
+        },
+        {
+          width: 480,
+          cols: 2,
+          options: {
+            gapHorizontal: 15,
+            gapVertical: 15
+          }
+        }
+      ],
+      caption: 'zoom',
+      displayType: 'fadeIn',
+      displayTypeSpeed: 400,
+      singlePageDelegate: '.cbp-singlePage',
+      singlePageDeeplinking: true,
+      singlePageStickyNavigation: true,
+      singlePageCallback: function(url, element) {
+        var t = this;
+        $.ajax({
+          url: url,
+          type: 'GET',
+          dataType: 'html',
+          timeout: 30000
+        })
+          .done(function(result) {
+            t.updateSinglePage(result);
+          })
+          .fail(function() {
+            t.updateSinglePage('AJAX Error! Please refresh the page!');
+          });
+      }
     });
   });
 </script>
-    <div class="jumbotron" style="text-align: center;">
-      <img class="author-profile-img" src="/assets/img/profile.png" />
-      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
-      <p class="lead" id="typewriteText"></p>
-         {%- include github_star_button.html -%}
-         {%- include github_fork_button.html -%}
+<div class="jumbotron" style="text-align: center;">
+  <img class="author-profile-img" src="/assets/img/profile.png" />
+  <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+  <p class="lead" id="typewriteText"></p>
+  {%- include github_star_button.html -%} {%- include github_fork_button.html
+  -%}
+</div>
+<div class="col-lg-8 offset-md-2">
+  <section id="recent-articles">
+    <div id="recent-articles-header">
+      <div id="recent-articles-title">
+        <h1 class="card-title">Recent Articles</h1>
+      </div>
+      <div id="recent-articles-show-all">
+        <a class="btn btn-lg btn-dark" href="/blog">View All</a>
+      </div>
     </div>
-    <div class="col-lg-8 offset-md-2">
-      <section id="recent-articles">
-        <div id="recent-articles-header">
-          <div id="recent-articles-title">
-            <h1 class="card-title">Recent Articles</h1>
-          </div>
-          <div id="recent-articles-show-all">
-            <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
-          </div>
-        </div>
-        <br />
+    <br />
 
-        <ul>
-          {% for post in site.posts limit:5 %}
-          <li class="article-card">
-            <a href="{{post.url}}" class="article-card-link">
-              <div id="article-container">
-                <div id="article-img">
-                  <img
-                    src="/assets/img/{{site.author_logo}}"
-                    width="50px"
-                    height="50px"
-                  />
-                </div>
-                <div id="article-link">
-                    <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
-                  </div>
-                  <div id="article-alert">
-                  {% for cat in post.category limit:1 %}
-                   <button class="btn btn-sm btn-dark">{{cat}}</button>
-                  {% endfor %}
-                  </div>
-              </div>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li class="article-card">
+        <a href="{{post.url}}" class="article-card-link">
+          <div id="article-container">
+            <div id="article-img">
+              <img
+                src="/assets/img/{{site.author_logo}}"
+                width="50px"
+                height="50px"
+              />
+            </div>
+            <div id="article-link">
+              <p class="recent-article-link">
+                {{post.title}}
+                <span style="color: #ccc; font-size: 15px;">
+                  -
+                  <i>
+                    <time datetime="{{ post.date }}" itemprop="datePublished">
+                      {{ post.date | date: "%b %-d, %Y" }}
+                    </time>
+                  </i>
+                </span>
+              </p>
+            </div>
+            <div id="article-alert">
+              {% for cat in post.category limit:1 %}
+              <button class="btn btn-sm btn-dark">{{cat}}</button>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="recent-projects">
+    <h1 class="card-title">Recent Projects</h1>
+    <div id="filters-container" class="cbp-l-filters-work">
+      <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">
+        All
+        <div class="cbp-filter-counter"></div>
+      </div>
+      <div data-filter=".opensource" class="cbp-filter-item">
+        Open Source
+        <div class="cbp-filter-counter"></div>
+      </div>
+      <div data-filter=".web" class="cbp-filter-item">
+        Website
+        <div class="cbp-filter-counter"></div>
+      </div>
+      <div data-filter=".ui-ux" class="cbp-filter-item">
+        UI / UX
+        <div class="cbp-filter-counter"></div>
+      </div>
+      <div data-filter=".mobile" class="cbp-filter-item">
+        App
+        <div class="cbp-filter-counter"></div>
+      </div>
     </div>
+    <div id="grid-container" class="cbp cbp-l-grid-work">
+      <div class="cbp-item opensource">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/devlopr.html"
+          title="Devlopr Jekyll"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/devlopr.png"
+              alt="Devlopr Jekyll"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Devlopr
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/devlopr.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Devlopr
+        </a>
+        <div class="cbp-l-grid-work-desc">Open Source / Jekyll</div>
+      </div>
+      <div class="cbp-item web">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/yesswork.html"
+          title="Yesswork"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/yesswork.png"
+              alt="Yesswork"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Yesswork
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/yesswork.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Yesswork
+        </a>
+        <div class="cbp-l-grid-work-desc">Web Design / Development</div>
+      </div>
+      <div class="cbp-item web">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/safetyone.html"
+          title="Safety One"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/safetyone.png"
+              alt="Gamers Hub"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Safety One
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/safetyone.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Safety One
+        </a>
+        <div class="cbp-l-grid-work-desc">Web Design / Development</div>
+      </div>
+      <div class="cbp-item web">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/financetechworld.html"
+          title="Finance Tech World"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/financetechworld.png"
+              alt="Finance Tech World"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Finance Tech World
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/financetechworld.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Finance Tech World
+        </a>
+        <div class="cbp-l-grid-work-desc">Web Design / Development</div>
+      </div>
+      <div class="cbp-item web">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/alex.html"
+          title="Alex Jacob Architect"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/alex.png"
+              alt="Alex Jacob Architect"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Alex Jacob Architect
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/alex.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Alex Jacob Architect
+        </a>
+        <div class="cbp-l-grid-work-desc">Web Design / Development</div>
+      </div>
+      <div class="cbp-item web">
+        <a
+          class="cbp-caption cbp-singlePage"
+          href="/projects/amigoevents.html"
+          title="Amigo Events"
+          rel="nofollow"
+        >
+          <div class="cbp-caption-defaultWrap">
+            <img
+              src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              data-cbp-src="/assets/img/projects/thumbnails/amigoevents.png"
+              alt="Amigo Events"
+              width="480"
+              height="250"
+            />
+          </div>
+          <div class="cbp-caption-activeWrap">
+            <h1
+              style="text-align: center; color:#fff !important; margin-top: 20px;"
+            >
+              Amigo Events
+            </h1>
+          </div>
+        </a>
+        <a
+          href="/projects/amigoevents.html"
+          class="cbp-l-grid-work-title cbp-singlePage"
+          rel="nofollow"
+        >
+          Amigo Events
+        </a>
+        <div class="cbp-l-grid-work-desc">Web Design / Development</div>
+      </div>
+    </div>
+    <div id="filters-loadMore-work" class="cbp-l-loadMore-button">
+      <a href="/projects/loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
+        <span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
+        <span class="cbp-l-loadMore-loadingText">LOADING...</span>
+        <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
+      </a>
+    </div>
+  </section>
+</div>
