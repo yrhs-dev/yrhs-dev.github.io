@@ -33,25 +33,25 @@ author_website_url: "instagram.com/yrhs.dev/"
 typewrite-text: I'm a developer who pursues the convergence of hardware, software & design. 
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Korea Post
+              company_logo: korea.jpg
+              company_url: https://www.epost.go.kr/main.retrieveMainPage.com
+              designation: Professional Logistician
+              description: Management of Supply Chain (SCM)
               visibility: true
-            - company_name: Kyung Hee University LinC+
+            - company_name: Arranging documents using Excel
               company_logo: khu_linc.png
               company_url: http://lincplus.khu.ac.kr/
-              designation: arranging documents using Excel
+              designation: Kyung Hee University LinC+
               description: Worked on various excel business. 
               visibility: true
 
 author_education_details:
-              - college_logo: khu.jpg
-                college_name: Kyung Hee University 
+              - college_logo: khu.png
+                college_name: Bachelor of Engineering
                 college_url: http://www.khu.ac.kr/
-                college_degree: IE, EE & CE
-                description: Bachelor of Engineering
+                college_degree: Kyung Hee University
+                description:  IE, EE & CE
                 visibility: true
 
 author_project_details:
