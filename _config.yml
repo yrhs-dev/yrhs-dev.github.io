@@ -26,7 +26,7 @@ urls:
 
 author_logo: profile.png
 author: Hyunsu Jang
-author_bio: Hello, Welcome to yrhs-dev(Hyunsu Jang)'s Blog. I built this site using devlopr-jekyll :D
+author_bio: Hello, Welcome to yrhs-dev(Hyunsu Jang)'s Blog. I'm a developer who pursues the convergence of hardware, software & design. :D
 author_email: "travel_98@khu.ac.kr"
 author_location: South Korea
 author_website_url: null
@@ -67,16 +67,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: null
+github_username:  yrhs-dev
+facebook_username: yrhs.dev
+linkedin_username: yrhs-dev
+behance_username: null
+instagram_username: yrhs.dev
+medium_username: null
+telegram_username: null
+dribbble_username: null
+flickr_username: null
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -84,7 +84,7 @@ flickr_username: johndoe
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: yrhs-dev
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
