@@ -39,11 +39,11 @@ author_work_experiences:
               designation: Software Engineer
               description: Worked on various Google Products
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Kyung Hee University LinC+
+              company_logo: https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-9/62512459_639790063193230_2132567376904847360_n.png?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=YmZoWj-woAkAX98psON&_nc_ht=scontent-ssn1-1.xx&oh=b909b403b717326d88671a8a87df9276&oe=5F877D51
+              company_url: http://lincplus.khu.ac.kr/
+              designation: arranging documents using Excel
+              description: Worked on various excel business. 
               visibility: true
 
 author_education_details:
