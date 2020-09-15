@@ -27,6 +27,12 @@ urls:
 author_logo: profile.png
 author: Hyunsu Jang
 author_bio: Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀 <br>I'm a developer who pursues the convergence of hardware, software & design. 😎<br>
+<br>Also, I'm interested in technologies that help every one.<br>
+<br>I am a undergraduate student at Kyung Hee University, Department of IE, EE & CE. My major study is concentrated in Data Science📚 and Circuit Design🔌.<br>
+<br>My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎. 
+<br>I am also a research intern at Big Data Lab (Allbigdata) at KyungHee University🏛, under the supervision of Prof. ChangHo Chin.🧑🏻‍💼<br>
+<br>I like to read books📚, watch movies🎬, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌.<br> 
+
 author_email: "travel_98@khu.ac.kr"
 author_location: South Korea
 author_website_url: "instagram.com/yrhs.dev/"
@@ -43,7 +49,7 @@ author_work_experiences:
               company_logo: khu_linc.png
               company_url: http://lincplus.khu.ac.kr/
               designation: Kyung Hee University LinC+
-              description: Worked on various excel business. 
+              description: Worked on various excel business
               visibility: true
 
 author_education_details:
