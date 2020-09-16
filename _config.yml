@@ -60,12 +60,12 @@ author_education_details:
 author_project_details:
               - project_thumbnail: dust_prediction.png
                 project_title: 💻 Prediction of Air pollution using deep learning(LSTM) 
-                project_description: The project was selected for excellent project in Web&Python Programming class, Kyung Hee University.<br>  Also, the project was selected as an excellent project for SW Convergence Scholarship in SW-Centered Business Group, Kyung Hee University.
+                project_description: The project was selected as an excellent project in Web&Python Programming class, Kyung Hee University.<br>  Also, the project was selected as an excellent project for SW Convergence Scholarship in SW-Centered Business Group, Kyung Hee University.
                 project_url: https://khlug.org/group/50005
                 visibility: true
               - project_thumbnail: SMAP.png
                 project_title: 💻 Prediction of Stock Market Analysis(SMAP) 
-                project_description: The project was selected for excellent project in Khlug, Kyung Hee University.
+                project_description: The project was selected as an excellent project in Khlug, Kyung Hee University.
                 project_url: https://khlug.org/group/46639
                 visibility: true
 
