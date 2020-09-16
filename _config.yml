@@ -69,6 +69,12 @@ author_project_details:
                 project_url: https://khlug.org/group/46639
                 visibility: true
 
+author_award_details:
+                award_title: 🏆 [FIELD Camp 2020 Excellence award]
+                award_description: In KIIE: Korean Institute of Industrial Engineers, August 2020
+                award_url: 
+                visibility: true
+
 # social links
 twitter_username: yrhs_dev
 github_username:  yrhs-dev
@@ -104,6 +110,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_award_details: true
 
 # pagination of posts
 paginate: 4
