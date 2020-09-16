@@ -38,7 +38,7 @@ typewrite-text: I'm a developer who pursues the convergence of hardware, softwar
 author_work_experiences:
             - company_name: Professional Logistician
               company_logo: korea.jpg
-              company_url: https://www.epost.go.kr/main.retrieveMainPage.com
+              company_url: https://www.epost.go.kr/
               designation: Korea Post
               description: Management of Supply Chain (SCM)
               visibility: true
