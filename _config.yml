@@ -26,7 +26,9 @@ urls:
 
 author_logo: profile.png
 author: Hyunsu Jang
-author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀 | I'm a developer who pursues the convergence of hardware, software & design. 😎 | Also, I'm interested in technologies that help every one.<br>I am a undergraduate student at Kyung Hee University, Department of IE, EE & CE. My major study is concentrated in Data Science📚 and Circuit Design🔌.|
+author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀|  I'm a developer who pursues the convergence of hardware, software & design. 😎| 
+Also, I'm interested in technologies that help every one.| I am a undergraduate student at Kyung Hee University, Department of IE, EE & CE.|
+My major study is concentrated in Data Science📚 and Circuit Design🔌.|
 My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎.|
 I am also a research intern at Big Data Lab (Allbigdata) at KyungHee University🏛, under the supervision of Prof. ChangHo Chin🧑🏻‍💼.|
 I like to read books📚, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌.</p> 
@@ -60,6 +62,11 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: gamershub.png
+                project_title: Gamers Hub
+                project_description: A Platform built for Gamers and Game Devs
+                project_url: https://gamershub.in
+                visibility: true
+               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
