@@ -36,17 +36,17 @@ author_google_scholar:
 typewrite-text: I'm a developer who pursues the convergence of hardware, software & design. 
 
 author_work_experiences:
-            - company_name: Professional Logistician
+            - company_name: 📮 Professional Logistician
               company_logo: korea.jpg
               company_url: https://www.epost.go.kr/
-              designation: Korea Post
+              designation: 📮 Korea Post
               description: Management of Supply Chain (SCM)
               visibility: true
             - company_name: Arranging documents using Excel
               company_logo: khu_linc.png
               company_url: http://lincplus.khu.ac.kr/
-              designation: Kyung Hee University LinC+
-              description: Worked on various excel business
+              designation: 🖥 Kyung Hee University LinC+
+              description: 🖥 Worked on various excel business
               visibility: true
 
 author_education_details:
@@ -59,12 +59,12 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: dust_prediction.png
-                project_title: Prediction of Air pollution using deep learning(LSTM) 
+                project_title: 💻 Prediction of Air pollution using deep learning(LSTM) 
                 project_description: The project was selected for excellent project in Web&Python Programming class, Kyung Hee University.<br>  Also, the project was selected as an excellent project for SW Convergence Scholarship in SW-Centered Business Group, Kyung Hee University.
                 project_url: https://khlug.org/group/50005
                 visibility: true
               - project_thumbnail: SMAP.png
-                project_title: Prediction of Stock Market Analysis(SMAP) 
+                project_title: 💻 Prediction of Stock Market Analysis(SMAP) 
                 project_description: The project was selected for excellent project in Khlug, Kyung Hee University.
                 project_url: https://khlug.org/group/46639
                 visibility: true
