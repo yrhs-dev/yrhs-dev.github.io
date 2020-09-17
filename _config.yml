@@ -40,36 +40,50 @@ author_education_details:
                 college_name: A undergraduate student
                 college_url: http://www.khu.ac.kr/
                 college_degree: 🎓 Kyung Hee University
-                description:  IE, EE & CE
+                description:  IE, EE & CE (산업경영공학과, 전자공학과, 컴퓨터공학과)
                 visibility: true
                 
 author_clubs:
               - college_logo: khlug.jpg
-                company_name: Representative director
+                company_name: 
                 college_url: https://khlug.org/
                 designation: 👨‍💻 KHLUG, Kyung Hee University
-                description:  
-                visibility: true
-                
-              - college_logo: vip.png
-                company_name:  Executive Advisor
-                college_url: https://www.facebook.com/VIPKHU2020
-                designation: 👨🏻‍🏫 VIP, Kyung Hee University
-                description:  
+                description: Representative director
                 visibility: true
                 
               - college_logo: d2.png
                 company_name: Campus Partner
                 college_url: https://d2.naver.com/home
                 designation: 👨‍💻 2019 Naver D2 
-                description:  Representative director of Kyung Hee University
+                description: Representative director of Kyung Hee University
                 visibility: true
-              
+                
+              - college_logo: khu_kr.png
+                company_name: 13th Campus
+                college_url: https://d2.naver.com/home
+                designation: 🏛 2019 Kyung Hee Freshman Seminar
+                description:  Mentor
+                visibility: true
+                
+              - college_logo: vip.png
+                company_name: Venture Inaugurating People 
+                college_url: https://www.facebook.com/VIPKHU2020
+                designation: 👨🏻‍🏫 VIP, Kyung Hee University
+                description:  Executive Advisor
+                visibility: true
+                
+              - college_logo: khu_kr.png
+                company_name: member 
+                college_url: http://swedu.khu.ac.kr/html_2018/
+                designation: 🏛 2020 SW Sharing Volunteer Group
+                description: Software Volunteer
+                visibility: true
+               
               - college_logo: field..jpg
                 company_name: Future Industrial Engineering Leaders and Dreamers
                 college_url: https://www.facebook.com/iefield
                 designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
-                description: 12th Competition Team & 
+                description: 12th Competition Team & External relations Team 
                 visibility: true
 
 author_work_experiences:
