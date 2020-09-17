@@ -233,6 +233,7 @@ show_author_award_details: true
 show_author_clubs: true
 show_author_services: true
 show_author_awards: true
+show_author_research: true
 
 # pagination of posts
 paginate: 4
