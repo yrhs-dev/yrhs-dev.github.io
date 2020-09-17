@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jekyll
+title: 2020년
 permalink: /blog/categories/jekyll/
 ---
 
