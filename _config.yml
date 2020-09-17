@@ -129,7 +129,7 @@ author_services:
                 description: (2020.09 ~ 2021.08)
                 visibility: true
 
-author_award:
+author_awards:
               - company_logo: suwon.png
                 company_name: a citation for filial behavior
                 company_url: https://www.suwon.go.kr/
