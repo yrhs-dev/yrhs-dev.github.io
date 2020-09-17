@@ -4,7 +4,7 @@ title:  "Welcome to yrhs-dev(Hyunsu Jang) !"
 summary: Hello World ! 
 author: yrhs-dev
 date: '2020-09-17 06:54:23 +0900'
-category: jekyll
+category: 2020
 thumbnail: /assets/img/posts/code.jpg
 keywords: yrhs-dev, First_post, first_posting, ROK, Korea, South_Korea
 permalink: /blog/yrhs-dev
