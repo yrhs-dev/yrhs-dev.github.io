@@ -115,7 +115,7 @@ author_services:
                 description: Software Startup Track (2020.01 ~ 2020.02)
                 visibility: true
                 
-              - company_logo: education.png
+              - company_logo: khu_kr.png
                 company_name: Lecture tutor   
                 company_url: https://www.iie.ac.kr/
                 designation: 👨🏻‍🏫 Korean Language tutor(Dowoomi)
@@ -127,6 +127,32 @@ author_services:
                 company_url: https://www.youthdaily.co.kr/
                 designation: 📽 Youth Daily
                 description: (2020.09 ~ 2021.08)
+                visibility: true
+
+author_award:
+              - company_logo: suwon.png
+                company_name: a citation for filial behavior
+                company_url: https://www.suwon.go.kr/
+                designation: 🏆 A citation for Suwon City
+                description: The mayor of Suwon (2016.03)
+                visibility: true
+              - company_logo: khu_kr.png
+                company_name: Excellence award 
+                company_url: https://eng.khu.ac.kr/ie
+                designation: 🥈 An award for excellence in grades
+                description: College of Engineering Kyung Hee University (2018.11)
+                visibility: true
+              - company_logo: kiie.png
+                company_name: Excellence award
+                company_url: http://kiie.org/
+                designation: 🏆 FIELD Camp 2020 
+                description: In KIIE, Korean Institute of Industrial Engineers (2020.08)
+                visibility: true
+              - company_logo: khu_kr.png
+                company_name: Excellence award
+                company_url: https://www.iie.ac.kr/
+                designation: 🥇 Korean Language tutor(Dowoomi)
+                description: Institute of international education Kyung Hee University (2020.09)
                 visibility: true
                 
 author_work_experiences:
@@ -155,12 +181,6 @@ author_project_details:
                 project_title: 💻 Prediction of Stock Market Analysis(SMAP) 
                 project_description: The project was selected as an excellent project in Khlug, Kyung Hee University.
                 project_url: https://khlug.org/group/46639
-                visibility: true
-
-author_award_details:
-                award_title: 🏆 [FIELD Camp 2020 Excellence award]
-                award_description:  In KIIE, Korean Institute of Industrial Engineers, August 2020
-                award_url: http://kiie.org/
                 visibility: true
 
 # social links
@@ -201,6 +221,7 @@ show_author_project_details: true
 show_author_award_details: true
 show_author_clubs: true
 show_author_services: true
+show_author_awards: true
 
 # pagination of posts
 paginate: 4
