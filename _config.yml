@@ -88,16 +88,16 @@ author_clubs:
                 
 author_services:
               - company_logo: khu_linc.png
-                company_name: KHU Valley Program 2nd 
+                company_name: Kyung Hee University LinC+ 
                 company_url: http://lincplus.khu.ac.kr/
-                designation: 👨‍👨‍👦‍👦 Kyung Hee University LinC+
+                designation: 👨‍👨‍👦‍👦 KHU Valley Program 2nd
                 description: Hardware Startup Track (2019.07 ~ 2019.08)
                 visibility: true
               
               - company_logo: khu_kr.png
-                company_name: Design Camp 2nd 
+                company_name: Department of Electronic Engineering 
                 company_url: http://ee.khu.ac.kr/blog/blog_page.php?r_Idx=28
-                designation: 👨‍👨‍👦‍👦 Department of Electronic Engineering
+                designation: 👨‍👨‍👦‍👦 Design Camp 2nd
                 description: under the supervision of Prof. joobin Song🧑🏻 (2019.07 ~ 2019.08)
                 visibility: true                
               
@@ -109,9 +109,9 @@ author_services:
                 visibility: true    
               
               - company_logo: khu_linc.png
-                company_name: KHU Valley Program 3rd 
+                company_name: Kyung Hee University LinC+
                 company_url: http://lincplus.khu.ac.kr/
-                designation: 👨‍👨‍👦‍👦 Kyung Hee University LinC+
+                designation: 👨‍👨‍👦‍👦 KHU Valley Program 3rd 
                 description: Software Startup Track (2020.01 ~ 2020.02)
                 visibility: true
                 
