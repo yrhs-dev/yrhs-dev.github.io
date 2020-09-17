@@ -28,7 +28,7 @@ urls:
 
 author_logo: profile.png
 author: Hyunsu Jang
-author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀<br> I'm a developer who pursues the convergence of hardware, software & design. 😎<br> Also, I am a undergraduate student at Kyung Hee University🏛, Department of IE, EE & CE.<br>My major study is concentrated in Data Science📚 and Circuit Design🔌.<br>I am also a research intern at Big Data Lab (Allbigdata) at KyungHee University🏛, under the supervision of Prof. ChangHo Chin🧑🏻.<br>My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎.<br>I like to read books📚, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌.</p>
+author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀<br> I'm a developer who pursues the convergence of hardware, software & design. 😎<br> Also, I am a undergraduate student at Kyung Hee University🏛, Department of IE, EE & CE.<br>My major study is concentrated in Data Science📚 and Circuit Design🔌.<br>I am also a research intern at Big Data Lab (Allbigdata) at Kyung Hee University🏛, under the supervision of Prof. ChangHo Chin🧑🏻.<br>My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎.<br>I like to read books📚, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌.</p>
 author_email: "travel_98@khu.ac.kr"
 author_location: Suwon, South Korea
 author_website_url: "instagram.com/yrhs.dev/"
@@ -114,6 +114,13 @@ author_services:
                 designation: 👨‍👨‍👦‍👦 KHU Valley Program 3rd 
                 description: Software Startup Track (2020.01 ~ 2020.02)
                 visibility: true
+               
+              - company_logo: khu_kr.png
+                company_name: A research intern at Big Data Lab at Kyung Hee University🏛, under the supervision of Prof. ChangHo-Chin🧑🏻.
+                company_url: http://swedu.khu.ac.kr/html_2018/
+                designation: 👨‍💻 Software Convergence Program in Kyung Hee University 
+                description: College of Electronics and Information (2020.02 ~ )
+                visibility: true
                 
               - company_logo: khu_kr.png
                 company_name: Lecture tutor   
@@ -154,7 +161,11 @@ author_awards:
                 designation: 🥇 Korean Language tutor(Dowoomi)
                 description: Institute of international education Kyung Hee University (2020.09)
                 visibility: true
-                
+
+author_research:
+
+
+
 author_work_experiences:
             - company_name: Professional Logistician
               company_logo: korea.jpg
