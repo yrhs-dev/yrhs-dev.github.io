@@ -19,9 +19,6 @@ permalink: /blog/yrhs-dev
 아직 훌륭한 사람들에 비하면 여전히 미숙한 실력이지만 빠른 시일 내에 회로 설계, 코드 분석 그리고 디자인 기술을 습득하여 더 큰 무대로 나갈 수 있는 버팀목이 되면 좋겠습니다. </p>
 
 
-
-Jekyll also offers powerful support for code snippets:
-
 {% highlight ruby %}
 def print_hi(name)
   puts "Hello, #{name}"
