@@ -116,10 +116,10 @@ author_services:
                 visibility: true
                 
               - company_logo: education.png
-                company_name: Korean Language tutor   
+                company_name: Lecture tutor   
                 company_url: https://www.iie.ac.kr/
-                designation: 🇰🇷 Institute of international education Kyung Hee University
-                description: Lecture tutor(Dowoomi) (2020.07 ~ 2020.12)
+                designation: 👨🏻‍🏫 Korean Language tutor(Dowoomi)
+                description: Institute of international education Kyung Hee University (2020.07 ~ 2020.12)
                 visibility: true
               
               - company_logo: youthdaily.jpg
@@ -143,7 +143,6 @@ author_work_experiences:
               designation: 🖥 Kyung Hee University LinC+
               description: 🖥 Worked on various excel business
               visibility: true
-
 
 
 author_project_details:
