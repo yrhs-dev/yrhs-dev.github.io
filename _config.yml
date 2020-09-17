@@ -20,7 +20,7 @@ urls:
     - text: Gallery
       url: /gallery
     - text: Plan
-      url: /Plan
+      url: /plan
     - text: Contact Me
       url : /contact
 
