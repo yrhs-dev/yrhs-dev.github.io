@@ -28,7 +28,7 @@ urls:
 
 author_logo: profile.png
 author: Hyunsu Jang
-author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀<br> I'm a developer who pursues the convergence of hardware, software & design. 😎<br> Also, I am a undergraduate student at Kyung Hee University🏛, Department of IE, EE & CE.<br>My major study is concentrated in Data Science📚 and Circuit Design🔌.<br>I am also a research intern at Big Data Lab (Allbigdata) at KyungHee University🏛, under the supervision of Prof. ChangHo Chin🧑🏻.<br>My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎.<br>I like to read books📚, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌</p>
+author_bio: <p>Hello, Welcome to Hyunsu Jang(yrhs-dev)'s Blog. 😀<br> I'm a developer who pursues the convergence of hardware, software & design. 😎<br> Also, I am a undergraduate student at Kyung Hee University🏛, Department of IE, EE & CE.<br>My major study is concentrated in Data Science📚 and Circuit Design🔌.<br>I am also a research intern at Big Data Lab (Allbigdata) at KyungHee University🏛, under the supervision of Prof. ChangHo Chin🧑🏻.<br>My focus area lies in the convergence of Hardware🔌, Softeware💻 & Design🎨 like Apple🍎.<br>I like to read books📚, go classical music conert🖼 and be on instagram🌊, and I love to collect some information related to A.I.🧑, Data Science📚 and Circuit Design🔌.</p>
 author_email: "travel_98@khu.ac.kr"
 author_location: Suwon, South Korea
 author_website_url: "instagram.com/yrhs.dev/"
@@ -40,7 +40,7 @@ author_education_details:
                 college_name: A undergraduate student
                 college_url: http://www.khu.ac.kr/
                 college_degree: 🎓 Kyung Hee University
-                description:  IE, EE & CE (산업경영공학과, 전자공학과, 컴퓨터공학과)
+                description:  IE, EE & CE (2018.03 ~ )
                 visibility: true
                 
 author_clubs:
@@ -48,44 +48,87 @@ author_clubs:
                 company_name: Kyung Hee Linux User Group
                 company_url: https://khlug.org/
                 designation: 👨‍💻 KHLUG, Kyung Hee University
-                description: Representative director
+                description: Representative director (2019.01 ~ 2020.01)
                 visibility: true
                 
               - company_logo: d2.png
                 company_name: Campus Partner
                 company_url: https://d2.naver.com/home
                 designation: 👨‍💻 2019 Naver D2 
-                description: Representative director of Kyung Hee University
+                description: Representative director of Kyung Hee University (2019.01 ~ 2019.12)
                 visibility: true
                 
               - company_logo: khu_kr.png
                 company_name: 13th Campus
                 company_url: https://d2.naver.com/home
                 designation: 🏛 2019 Kyung Hee Freshman Seminar
-                description:  Mentor
+                description:  Mentor (2019.02 ~ 2019.06)
                 visibility: true
                 
               - company_logo: vip.png
                 company_name: Venture Inaugurating Peocompany_urlple 
                 company_url: https://www.facebook.com/VIPKHU2020
                 designation: 👨🏻‍🏫 VIP, Kyung Hee University
-                description:  Executive Advisor
+                description:  Executive Advisor (2020.01 ~ 2020.08)
                 visibility: true
                 
               - company_logo: khu_kr.png
                 company_name: member 
                 company_url: http://swedu.khu.ac.kr/html_2018/
                 designation: 🏛 2020 SW Sharing Volunteer Group
-                description: Software Volunteer
+                description: Software Volunteer (2020.01 ~ 2020.08)
                 visibility: true
                
               - company_logo: field..jpg
                 company_name: Future Industrial Engineering Leaders and Dreamers
                 company_url: https://www.facebook.com/iefield
                 designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
-                description: 12th Competition Team & External relations Team 
+                description: 12th Competition Team & External relations Team (2020.01 ~ 2020.12)
                 visibility: true
-
+                
+author_services:
+              - company_logo: khu_linc.png
+                company_name: KHU Valley Program 2nd 
+                company_url: http://lincplus.khu.ac.kr/
+                designation: 👨‍👨‍👦‍👦 Kyung Hee University LinC+
+                description: Hardware Startup Track (2019.07 ~ 2019.08)
+                visibility: true
+              
+              - company_logo: khu_kr.png
+                company_name: Design Camp 2nd 
+                company_url: http://ee.khu.ac.kr/blog/blog_page.php?r_Idx=28
+                designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
+                description: Department of Electronic Engineering under the supervision of Prof. joobin Song🧑🏻 (2019.07 ~ 2019.08)
+                visibility: true                
+              
+              - company_logo: khuthon.jpg
+                company_name: Software Hackerthon in Kyung Hee Univeristy
+                company_url: https://thon.khlug.org/
+                designation: 👨‍💻 2019 Khuthon 
+                description: Campaign Manager🧑🏻 (2019.10 ~ 2019.10)
+                visibility: true    
+              
+              - company_logo: khu_linc.png
+                company_name: KHU Valley Program 3rd 
+                company_url: http://lincplus.khu.ac.kr/
+                designation: 👨‍👨‍👦‍👦 Kyung Hee University LinC+
+                description: Software Startup Track (2020.01 ~ 2020.02)
+                visibility: true
+                
+              - company_logo: education.png
+                company_name: Korean Language tutor   
+                company_url: https://www.iie.ac.kr/
+                designation: 🇰🇷 Institute of international education Kyung Hee University
+                description: Lecture tutor(Dowoomi) (2020.07 ~ 2020.12)
+                visibility: true
+              
+              - company_logo: youthdaily.jpg
+                company_name: Youth Daily & FIELD reporters 
+                company_url: https://www.youthdaily.co.kr/
+                designation: 📽 Youth Daily
+                description: (2020.09 ~ 2021.08)
+                visibility: true
+                
 author_work_experiences:
             - company_name: Professional Logistician
               company_logo: korea.jpg
@@ -158,6 +201,7 @@ show_author_education_details: true
 show_author_project_details: true
 show_author_award_details: true
 show_author_clubs: true
+show_author_services: true
 
 # pagination of posts
 paginate: 4
