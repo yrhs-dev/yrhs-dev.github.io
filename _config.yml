@@ -47,7 +47,7 @@ author_clubs:
               - company_logo: khlug.jpg
                 company_name: Kyung Hee Linux User Group
                 company_url: https://khlug.org/
-                designation: 👨‍💻 KHLUG, Kyung Hee University
+                designation: 👨‍💻 KHLUG Group in Kyung Hee Univ. 
                 description: Representative director (2019.01 ~ 2020.01)
                 visibility: true
                 
@@ -68,7 +68,7 @@ author_clubs:
               - company_logo: vip.png
                 company_name: Venture Inaugurating Peocompany_urlple 
                 company_url: https://www.facebook.com/VIPKHU2020
-                designation: 👨🏻‍🏫 VIP, Kyung Hee University
+                designation: 👨🏻‍🏫 VIP Group in Kyung Hee Univ.
                 description:  Executive Advisor (2020.01 ~ 2020.08)
                 visibility: true
                 
@@ -82,7 +82,7 @@ author_clubs:
               - company_logo: field..jpg
                 company_name: Future Industrial Engineering Leaders and Dreamers
                 company_url: https://www.facebook.com/iefield
-                designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
+                designation: 👨‍👨‍👦‍👦 2020 FIELD in KIIE
                 description: 12th Competition Team & External relations Team (2020.01 ~ 2020.12)
                 visibility: true
                 
@@ -97,8 +97,8 @@ author_services:
               - company_logo: khu_kr.png
                 company_name: Design Camp 2nd 
                 company_url: http://ee.khu.ac.kr/blog/blog_page.php?r_Idx=28
-                designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
-                description: Department of Electronic Engineering under the supervision of Prof. joobin Song🧑🏻 (2019.07 ~ 2019.08)
+                designation: 👨‍👨‍👦‍👦 Department of Electronic Engineering
+                description: under the supervision of Prof. joobin Song🧑🏻 (2019.07 ~ 2019.08)
                 visibility: true                
               
               - company_logo: khuthon.jpg
