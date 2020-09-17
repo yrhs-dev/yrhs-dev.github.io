@@ -44,44 +44,44 @@ author_education_details:
                 visibility: true
                 
 author_clubs:
-              - college_logo: khlug.jpg
+              - company_logo: khlug.jpg
                 company_name: Kyung Hee Linux User Group
-                college_url: https://khlug.org/
+                company_url: https://khlug.org/
                 designation: 👨‍💻 KHLUG, Kyung Hee University
                 description: Representative director
                 visibility: true
                 
-              - college_logo: d2.png
+              - company_logo: d2.png
                 company_name: Campus Partner
-                college_url: https://d2.naver.com/home
+                company_url: https://d2.naver.com/home
                 designation: 👨‍💻 2019 Naver D2 
                 description: Representative director of Kyung Hee University
                 visibility: true
                 
-              - college_logo: khu_kr.png
+              - company_logo: khu_kr.png
                 company_name: 13th Campus
-                college_url: https://d2.naver.com/home
+                company_url: https://d2.naver.com/home
                 designation: 🏛 2019 Kyung Hee Freshman Seminar
                 description:  Mentor
                 visibility: true
                 
-              - college_logo: vip.png
-                company_name: Venture Inaugurating People 
-                college_url: https://www.facebook.com/VIPKHU2020
+              - company_logo: vip.png
+                company_name: Venture Inaugurating Peocompany_urlple 
+                company_url: https://www.facebook.com/VIPKHU2020
                 designation: 👨🏻‍🏫 VIP, Kyung Hee University
                 description:  Executive Advisor
                 visibility: true
                 
-              - college_logo: khu_kr.png
+              - company_logo: khu_kr.png
                 company_name: member 
-                college_url: http://swedu.khu.ac.kr/html_2018/
+                company_url: http://swedu.khu.ac.kr/html_2018/
                 designation: 🏛 2020 SW Sharing Volunteer Group
                 description: Software Volunteer
                 visibility: true
                
-              - college_logo: field..jpg
+              - company_logo: field..jpg
                 company_name: Future Industrial Engineering Leaders and Dreamers
-                college_url: https://www.facebook.com/iefield
+                company_url: https://www.facebook.com/iefield
                 designation: 👨‍👨‍👦‍👦 FIELD, in KIIE
                 description: 12th Competition Team & External relations Team 
                 visibility: true
